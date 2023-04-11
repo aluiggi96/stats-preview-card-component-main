@@ -137,6 +137,7 @@ body{
     .fullViewCard{
         grid-template-columns: 1fr;
         grid-template-rows: auto 2fr;
+        gap: 2rem;
     }
     .topSide{
         order: -1;
@@ -150,8 +151,7 @@ body{
     .bottomSide{
         text-align: center;
         align-content: start;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: 3rem;
     }
     .description{
         padding: 0;
